@@ -1,0 +1,82 @@
+.main-popup {
+  height: 293.64px;
+  width: 260px;
+  background-image: linear-gradient(
+    to right,
+    rgba(252, 93, 115, 1),
+    rgba(255, 153, 63, 1)
+  );
+  position: absolute;
+  top: 52%;
+  transform: translate(0, -50%);
+  left: 20px;
+  border-radius: 8px;
+}
+.part1 {
+  color: white;
+  padding: 8px 20.28px;
+}
+.heading {
+  font-size: 16px;
+}
+.sub-heading {
+  font-size: 14px;
+}
+.part2 {
+  height: 100px;
+  background-color: rgb(243, 240, 233);
+  font-weight: bold;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-around;
+}
+.bg-image {
+  filter: brightness(40%);
+}
+
+.part3 {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.part-3-button {
+  margin: 20px 18px;
+}
+.line1 {
+  width: 50%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.line2 {
+  width: 50%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.history-tab {
+  position: absolute;
+
+  top: 181px;
+  left: 23px;
+}
+.history-progress {
+  margin: 8px 0px;
+  width: 105%;
+}
+.vertical-line {
+  position: absolute;
+  border-left: 3px solid #fc5d73;
+  left: 30px;
+  top: 46px;
+  height: 70px;
+}
+.close-icon img {
+  width: 5%;
+  position: absolute;
+  right: 16px;
+  top: 12px;
+}

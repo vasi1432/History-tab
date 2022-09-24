@@ -1,0 +1,55 @@
+.progressive-bar {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.first-bar progress {
+  width: 30%;
+  height: 5px;
+  background-color: rgb(220, 220, 220);
+  margin-bottom: 6px;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.second-bar progress {
+  width: 30%;
+  height: 5px;
+  margin: 0px 2px;
+  background-color: rgb(220, 220, 220);
+  border-radius: 0;
+  margin-bottom: 6px;
+}
+.third-bar progress {
+  width: 30%;
+  height: 5px;
+  background-color: rgb(220, 220, 220);
+  margin-bottom: 6px;
+  border-radius: 0px 5px 5px 0px;
+}
+/* 
+.first-bar progress[value]::-webkit-progress-bar {
+  background-color: rgb(220, 220, 220);
+  border-radius: 5px 0px 0px 5px;
+}
+
+.first-bar progress[value]::-webkit-progress-value {
+  background-color: #fc5d73;
+  border-radius: 5px 0px 0px 5px;
+}
+.second-bar progress[value]::-webkit-progress-bar {
+  background-color: rgb(220, 220, 220);
+}
+
+.second-bar progress[value]::-webkit-progress-value {
+  background-color: #fc5d73;
+}
+.third-bar progress[value]::-webkit-progress-bar {
+  background-color: rgb(220, 220, 220);
+  border-radius: 0px 5px 5px 0px;
+}
+
+.third-bar progress[value]::-webkit-progress-value {
+  background-color: #fc5d73;
+  border-radius: 0px 5px 5px 0px;
+} */
